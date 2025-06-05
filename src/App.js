@@ -1,25 +1,15 @@
-import logo from './logo.svg';
+import { SpeedInsights } from "@vercel/speed-insights/react";;
 import './App.css';
 
+<SpeedInsights />
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Welcome to HireWithKrishna!</h1>
+      {/* Other components */}
+
+      <SpeedInsights />
     </div>
   );
 }
-
 export default App;
