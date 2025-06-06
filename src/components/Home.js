@@ -5,7 +5,7 @@ function Home() {
   const navigate = useNavigate();
 
   const handleStart = () => {
-    navigate('/resume');
+    navigate('/resume-form'); // ✅ Must match App.js path
   };
 
   return (
