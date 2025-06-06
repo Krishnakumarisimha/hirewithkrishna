@@ -9,11 +9,29 @@ function Home() {
   };
 
   return (
-    <div className="text-center mt-10">
-      <h1 className="text-3xl font-bold mb-4">Welcome to HireWithKrishna</h1>
+    <div
+      style={{
+        height: '100vh',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column',
+        backgroundColor: '#f8f9fa',
+        fontFamily: 'Arial, sans-serif'
+      }}
+    >
+      <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>Welcome to HireWithKrishna</h1>
       <button
         onClick={handleStart}
-        className="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600"
+        style={{
+          padding: '12px 24px',
+          fontSize: '16px',
+          backgroundColor: '#007bff',
+          color: '#fff',
+          border: 'none',
+          borderRadius: '5px',
+          cursor: 'pointer'
+        }}
       >
         Get Started
       </button>
